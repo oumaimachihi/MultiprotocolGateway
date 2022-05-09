@@ -52,3 +52,13 @@ We present below all the sequence diagrams corresponding to the use cases presen
 ### 3/Class diagram 
 ![class diagram](https://user-images.githubusercontent.com/87174876/167430488-60b77bcd-5957-4de1-8ebf-8cede2e0ea1f.png)
 
+
+## requirements
+
+    grpcio==1.45.0
+    grpcio-tools==1.45.0
+    paho-mqtt==1.6.1
+    protobuf==3.6.1
+    pyModbusTCP==0.1.10
+
+
