@@ -8,13 +8,11 @@ In fact, this platform is based mainly on gRPC that gurantees the communication 
 
 This is a Gateway that manages distincts protocls including:
 
-   MQTT
-   ModBus TCP
-   ModBus RTU 
-   wIFI
-   ZigBee
-   LoRa
-   BLE...
+    MQTT
+    ModBus TCP/RTU
+    wIFI
+    ZigBee
+    LoRa
  
 In this project we implemented just 2 protocols which are : MQTT and ModBus TCP
 
