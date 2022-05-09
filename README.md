@@ -41,17 +41,16 @@ The specification of the needs is used to associate each actor of the system wit
 
 The use case diagram in the following figure gives a global view of the platform that we want to realize.
 
-
-![class diagram](https://user-images.githubusercontent.com/87174876/167430014-a83f75e8-438d-40a9-acf0-8d7cc6e63e50.png)
-
+![use case](https://user-images.githubusercontent.com/87174876/167430386-b85a8edc-ee19-4df4-9e37-c4650968bf62.png)
 
 We present below all the sequence diagrams corresponding to the use cases presented previously and the class diagram.
 
 1/Global Platform Sequence Diagram :
-![use case](https://user-images.githubusercontent.com/87174876/167430058-b1b0de05-9284-436b-a325-cdba603055ba.png)
+![sequence diagram](https://user-images.githubusercontent.com/87174876/167430412-f2ff18e4-dcd8-4d50-83fe-27ee60f2d60c.png)
 
 2/Detailed Sequence Diagram:
-![sequence diagram](https://user-images.githubusercontent.com/87174876/167430092-c9cab831-7491-470c-a65d-3c2daa3b63a2.png)
+![sequence diagram2](https://user-images.githubusercontent.com/87174876/167430453-053813d3-3e7e-4784-b3ab-b07702e6f584.png)
 
 3/Class diagram 
-![sequence diagram2](https://user-images.githubusercontent.com/87174876/167430111-73a60528-bbbb-49b1-a745-ec87cc1f53b3.png)
+![class diagram](https://user-images.githubusercontent.com/87174876/167430488-60b77bcd-5957-4de1-8ebf-8cede2e0ea1f.png)
+
