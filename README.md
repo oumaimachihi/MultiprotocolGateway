@@ -40,16 +40,18 @@ Main Actors of this Gateway are :
 The specification of the needs is used to associate each actor of the system with the set of actions with which it intervenes. We use the **_use case diagrams_** to model the functional requirements.
 
 The use case diagram in the following figure gives a global view of the platform that we want to realize.
-![use case](https://www.facebook.com/messenger_media/?thread_id=100034786336294&attachment_id=5246519828704774&message_id=mid.%24cAABa-ynnniaG2m0BU2AqSe3esHDz)
+
+
+![class diagram](https://user-images.githubusercontent.com/87174876/167430014-a83f75e8-438d-40a9-acf0-8d7cc6e63e50.png)
 
 
 We present below all the sequence diagrams corresponding to the use cases presented previously and the class diagram.
 
 1/Global Platform Sequence Diagram :
-![sequence diagram](https://www.facebook.com/messenger_media/?thread_id=100034786336294&attachment_id=5246519828704774&message_id=mid.%24cAABa-ynnniaG2m0BU2AqSe3esHDz)
+![use case](https://user-images.githubusercontent.com/87174876/167430058-b1b0de05-9284-436b-a325-cdba603055ba.png)
+
 2/Detailed Sequence Diagram:
-![sequence diagram](https://www.facebook.com/messenger_media/?thread_id=100034786336294&attachment_id=5246519828704774&message_id=mid.%24cAABa-ynnniaG2m0BU2AqSe3esHDz)
+![sequence diagram](https://user-images.githubusercontent.com/87174876/167430092-c9cab831-7491-470c-a65d-3c2daa3b63a2.png)
+
 3/Class diagram 
-![class digram](https://www.facebook.com/messenger_media/?thread_id=100034786336294&attachment_id=5246519828704774&message_id=mid.%24cAABa-ynnniaG2m0BU2AqSe3esHDz)
-
-
+![sequence diagram2](https://user-images.githubusercontent.com/87174876/167430111-73a60528-bbbb-49b1-a745-ec87cc1f53b3.png)
