@@ -43,12 +43,12 @@ The use case diagram in the following figure gives a global view of the platform
 
 We present below all the sequence diagrams corresponding to the use cases presented previously and the class diagram.
 
-1/Global Platform Sequence Diagram :
+### 1/Global Platform Sequence Diagram :
 ![sequence diagram](https://user-images.githubusercontent.com/87174876/167430412-f2ff18e4-dcd8-4d50-83fe-27ee60f2d60c.png)
 
-2/Detailed Sequence Diagram:
+### 2/Detailed Sequence Diagram:
 ![sequence diagram2](https://user-images.githubusercontent.com/87174876/167430453-053813d3-3e7e-4784-b3ab-b07702e6f584.png)
 
-3/Class diagram 
+### 3/Class diagram 
 ![class diagram](https://user-images.githubusercontent.com/87174876/167430488-60b77bcd-5957-4de1-8ebf-8cede2e0ea1f.png)
 
