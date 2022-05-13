@@ -1,0 +1,12 @@
+[Unit]
+Description= ModbusTcp Server Manager Service
+
+
+[Service]
+User=root
+WorkingDirectory=/home/oumaima
+ExecStart=/usr/bin/python3  /home/oumaima/MultiprotocolGateway/server_modbus.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
