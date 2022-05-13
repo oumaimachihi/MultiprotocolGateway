@@ -5,7 +5,7 @@ from lib import Config_pb2_grpc
 from concurrent import futures
 import json 
 import logging
-import Config
+import config
 
 
 logging.basicConfig(level=logging.INFO,format='%(asctime)s:%(message)s')
