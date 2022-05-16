@@ -1,0 +1,13 @@
+[Unit]
+Description= Config Manager Service
+After=ConfigManager.service
+
+
+[Service]
+User=root
+WorkingDirectory=/home/oumaima
+ExecStart=/usr/bin/python3  /home/oumaima/Downloads/MultiprotocolGateway-main/MQTT_Server.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
