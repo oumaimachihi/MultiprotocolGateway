@@ -15,16 +15,16 @@ import logging
 
 logging.basicConfig(level=logging.INFO,format='%(asctime)s:%(message)s')
 
+topic='/home/door/open'
+
 class Modbus_Config():
     def run():
         global server_host,server_port
         with grpc.insecure_channel('localhost:50052') as channel :
             Config_pb2_grpc.ConfigManagerStub(channel)
             Conf_stub= Config_pb2_grpc.ConfigManagerStub(channel)
-            logging.info("What's the protocol Name?\nPlease type Mqtt or ModbusTCP")
-            Protocolname1=input()
-            Protocolname2=Protocolname1.upper()
-            Parameters= Conf_stub.getConfig(Config_pb2.Protocolrequest(Protocolname=Protocolname2))
+
+            Parameters= Conf_stub.getConfig(Config_pb2.Protocolrequest(Protocolname="ModbusTCP"))
             server_host=Parameters.__getattribute__('adresse')
             server_port=Parameters.__getattribute__('Port')
         logging.info('Configuration Parameters are {}:{}'.format(server_host,server_port))
@@ -94,11 +94,7 @@ def run():
         mqtt_pb2_grpc.MQTTManagerStub(channel)
         stub= mqtt_pb2_grpc.MQTTManagerStub(channel)
         print('Donner Topic')
-        topic2=input()
-        #print('Donner Payload')
-        #payload2=input()
-        #print('Donner Qos')
-        #qos2=input()
+        topic2=topic
         Acknowledgment= stub.PublishMessages(mqtt_pb2.ComingData(Topic=topic2,Payload=str(bits)))
         print(Acknowledgment)
 
