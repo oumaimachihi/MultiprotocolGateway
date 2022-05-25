@@ -24,16 +24,12 @@ class ConfigManagerServicer(Config_pb2_grpc.ConfigManagerServicer):
                 
 
 
-        elif ProtocolName=='MODBUSTCP':
+        else: 
             with open('Config/Config.json','r') as jsonfile1:
                 data= json.load(jsonfile1)
                 adresse1=data["ModBusTCP"]['ServerAdress']
                 port1=data["ModBusTCP"]['port']
 
-        else:
-            
-            adresse1='Try Again please!!!!'
-            port1=00000000000000000
             
         
         return Config_pb2.ProtocolConfig(adresse=adresse1,Port=port1)
