@@ -1,6 +1,6 @@
 [Unit]
 Description=MODBUS TCP Client Service
-After=Mqqt_Manager.service
+After=Mqtt_Manager.service
 After=Config_Manager.service
 Requires=Config_Manager.service
 Requires=Mqtt_Manager.service
