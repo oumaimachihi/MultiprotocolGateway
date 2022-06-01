@@ -7,8 +7,8 @@ Requires=Mqtt_Manager.service
 
 [Service]
 User=root
-WorkingDirectory=/home/oumaima/Multiprotocol
-ExecStart=/usr/bin/python3 /home/oumaima/Multiprotocol/modbus_client.py
+WorkingDirectory=/home/oumaima/MultiprotocolGateway
+ExecStart=/usr/bin/python3 /home/oumaima/MultiprotocolGateway/modbus_client.py
 Restart=on-failure
 
 [Install]
